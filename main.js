@@ -250,6 +250,7 @@
     var ingredients = response.data.outputs[0].data.concepts;
     	for (var i =0;i < ingredients.length;i++) {
     	$scope.ingredients.push(ingredients[i].name);
+    $scope.probabilityvalue.push(ingredients[i].value);
     	}
         }, function (xhr) {
         	console.log(xhr);
