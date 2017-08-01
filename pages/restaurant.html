@@ -35,11 +35,13 @@
          <span>{{restaurant.bestDish.name}} </span>
          <div ng-click="flag=!flag" class="button">Show Image</div>
            <div ng-show="flag">
-             <div ng-click="getIngredients(restaurant.bestDish.image)" class="button" id="getIngredients-button">Get Ingredients</div>
-             <div ng-click="checkVegorNonVeg()" class="button" id="getIngredients-button2">Get Veg or nv</div>
+             <ul class="list-buttons">
+               <li style="padding : 10px 0; display:inline-block;"><div ng-click="getIngredients(restaurant.bestDish.image)" class="button">Get Ingredients</div></li>
+             <li style="padding : 10px 0; display:inline-block;"><div ng-click="checkVegorNonVeg()" class="button">Get Veg or nv</div></li>
+             </ul>
              <img ng-src="{{restaurant.bestDish.image}}" style="margin-top: 30px;width:300px; height:200px;">
            </div>
-      
+
    </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
        // var message = 'Welcome Back, ' + email;
        // $('.welcome-message').text(message);
    // });
-
+// giving route to our app
    var foodieApp = angular.module('foodieApp',['ngRoute']);
    foodieApp.config(function ($routeProvider) {
  	$routeProvider
@@ -20,7 +20,8 @@
 		controller: 'restaurantController'
 	})
  })
-
+// making controller for our aap
+//main page controller
    foodieApp.controller('mainController',function($scope) {
 	$scope.restaurants = [
 	{
@@ -37,38 +38,38 @@
 },
 {
 	name: 'Oozo',
-	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-	location: 'Connaught Place',
+	address: 'Floor 1, Jalaram Commercial Centre, Near Ansa Industrial Estate, Saki Vihar Road, Sakinaka, Mumbai',
+	location: 'Mumbai',
 	category: 'Casual Dining, Bar',
 	vote: '4.6',
-	cuisines: 'Modern Indian',
-	cost: '2200',
+	cuisines: 'Continental, Mexican, Korean, Japanese, Greek, Finger Food',
+	cost: '1200',
   id: 2,
-	hours: '12 Noon to 1 AM (Mon-Sun)',
-	image: 'https://images.pexels.com/photos/496970/pexels-photo-496970.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+	hours: ' 12:30 PM to 1:30 AM',
+	image: 'http://www.hotelcasacarolina.com/wp-content/uploads/2015/06/Elys-Restaurant-in-Santa-Marta-1080x675.jpg'
 },
 {
 	name: 'Bombay AddA',
-	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-	location: 'Connaught Place',
+	address: '8th Floor, Nike Showroom Showroom Linking Road, Santacruz West, Mumbai',
+	location: 'Mumbai',
 	category: 'Casual Dining, Bar',
-	vote: '4.2',
-	cuisines: 'Modern Indian',
-	cost: '2200',
+	vote: '4.3',
+	cuisines: 'Healthy Food, Continental, Italian, North Indian',
+	cost: '1800',
   id: 3,
 	hours: '12 Noon to 1 AM (Mon-Sun)',
-	image: 'https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+	image: 'https://media-cdn.tripadvisor.com/media/photo-s/04/ac/54/19/sampan.jpg'
 },
 {
 	name: 'Fusion Fantasea',
-	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-	location: 'Connaught Place',
-	category: 'Casual Dining, Bar',
-	vote: '4.4',
-	cuisines: 'Modern Indian',
-	cost: '2200',
+	address: '14B, Anil Roy Road, Southern Avenue, Kolkata',
+	location: 'Kolkata',
+	category: 'Casual Dining',
+	vote: '4.3',
+	cuisines: 'Goan, Cafe, Kerala, Mughlai, Seafood',
+	cost: '700',
    id: 4,
-	hours: '12 Noon to 1 AM (Mon-Sun)',
+	hours: ' 12 Noon to 4 PM, 6 PM to 11 PM',
 	image: 'https://images.pexels.com/photos/511679/pexels-photo-511679.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
 },
 {
@@ -85,50 +86,50 @@
 },
 {
 	name: 'Happy Hakka',
-	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-	location: 'Connaught Place',
-	category: 'Casual Dining, Bar',
-	vote: '4.2',
-	cuisines: 'Modern Indian',
-	cost: '2200',
+	address: 'Sector 6, Dwarka',
+	location: 'Dwarka',
+	category: 'Casual Dining',
+	vote: '4.1',
+	cuisines: 'Chinese, Asian, Thai',
+	cost: '650',
   id: 6,
-	hours: '12 Noon to 1 AM (Mon-Sun)',
+	hours: '12 Noon to 11 PM',
 	image: 'https://images.pexels.com/photos/22420/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb'
 },
 {
-	name: 'Fort 001',
-	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-	location: 'Connaught Place',
+	name: 'Big Chill',
+	address: '68-A, Khan Market, New Delhi',
+	location: 'New Delhi',
 	category: 'Casual Dining, Bar',
-	vote: '3.9',
+	vote: '4.5',
 	cuisines: 'Modern Indian',
-	cost: '2200',
+	cost: '1500',
   id: 7,
-	hours: '12 Noon to 1 AM (Mon-Sun)',
+	hours: ' 12 Noon to 11:30 PM',
 	image: 'https://images.pexels.com/photos/357809/pexels-photo-357809.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
 },
 {
-	name: 'Burma Burma',
-	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-	location: 'Connaught Place',
+	name: 'Dragons Den',
+	address: 'New 8/2, Old 5/2, MG Road, Adyar, Chennai',
+	location: 'Chennai',
 	category: 'Casual Dining, Bar',
 	vote: '4.7',
-	cuisines: 'Modern Indian',
-	cost: '2200',
+	cuisines: 'Chinese, Asian',
+	cost: '450',
   id: 8,
-	hours: '12 Noon to 1 AM (Mon-Sun)',
+	hours: 'Today  11:45 AM to 4 PM, 7 PM to 11 PM',
 	image: 'https://images.pexels.com/photos/464229/food-noodles-soup-pho-464229.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
 }
 ]
 })
-
+//login page controller
   foodieApp.controller('loginController',function($scope,$location) {
   	$scope.goToHome = function() {
   		// console.log('Do Something')
   		$location.url('home')
   	}
   })
-
+//restaurant page controller
   foodieApp.controller('restaurantController',function($scope,$routeParams,$http) {
     $scope.ingredients = [];
   	$scope.restaurantId = $routeParams.id;
@@ -141,20 +142,24 @@
   	vote: '4.2',
   	cuisines: 'Modern Indian',
   	cost: '2200',
+    bestDish: {
+            name: 'three bean salad',
+            image: 'https://www.desiblitz.com/wp-content/uploads/2015/12/Dishes-Warm-Rogan-Gosht.jpg'
+          },
     id: 1,
   	hours: '12 Noon to 1 AM (Mon-Sun)',
   	image: 'https://b.zmtcdn.com/data/pictures/chains/2/308022/dabd30bd0b000ea859ada9a08a0132fc.jpg'
   },
   {
-  	name: 'Oozo',
-  	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-  	location: 'Connaught Place',
-  	category: 'Casual Dining, Bar',
-  	vote: '4.6',
-  	cuisines: 'Modern Indian',
-  	cost: '2200',
+  	name: 'Flying Kukkad',
+  	address: 'Gurgaon',
+  	location: 'Gurgaon',
+  	category: 'Casual Dining',
+  	vote: '4.3',
+  	cuisines: 'North Indian, Continenta, Lebanese',
+  	cost: '2000',
     id: 2,
-  	hours: '12 Noon to 1 AM (Mon-Sun)',
+  	hours: '12 AM to 3:30 PM (Mon-Sun)',
   	image: 'https://images.pexels.com/photos/496970/pexels-photo-496970.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
   },
   {
@@ -171,14 +176,14 @@
   },
   {
   	name: 'Fusion Fantasea',
-  	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-  	location: 'Connaught Place',
+  	address: '14B, Anil Roy Road, Southern Avenue, Kolkata',
+  	location: 'Kolkata',
   	category: 'Casual Dining, Bar',
-  	vote: '4.4',
-  	cuisines: 'Modern Indian',
-  	cost: '2200',
+  	vote: '4.3',
+  	cuisines: 'Goan,Cafe, Kerala, Mughlai, Seafood',
+  	cost: '700',
      id: 4,
-  	hours: '12 Noon to 1 AM (Mon-Sun)',
+  	hours: '12 Noon to 4 PM (Mon-Sun)',
   	image: 'https://images.pexels.com/photos/511679/pexels-photo-511679.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
   },
   {
@@ -188,7 +193,7 @@
   	category: 'Casual Dining, Bar',
   	vote: '3.9',
   	cuisines: 'Modern Indian',
-  	cost: '2200',
+  	cost: '22',
     id: 5,
   	hours: '12 Noon to 1 AM (Mon-Sun)',
   	image: 'https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
@@ -202,7 +207,7 @@
   	cuisines: 'Modern Indian',
   	cost: '2200',
     bestDish: {
-          	name: 'Corn Pizza',
+          	name: 'three bean salad',
           	image: 'http://noblepig.com/images/2016/06/Avocado-and-Three-Bean-Salad-is-perfect-for-a-summertime-barbecue-side-dish.JPG'
           },
     id: 6,
@@ -234,6 +239,7 @@
   	image: 'https://images.pexels.com/photos/464229/food-noodles-soup-pho-464229.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
   }
   ]
+  //method for identification of food (veg or nonveg)
   	$scope.restaurant = restaurants[$routeParams.id - 1];
     console.log($scope.restaurant);
     $scope.getIngredients = function(url)  {

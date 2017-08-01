@@ -147,6 +147,7 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 0px;
 }
 .red{
         background: #cb202d;
@@ -162,13 +163,18 @@ body {
 #getIngredients-button{
 
         position: absolute;
-    margin-left: 172px;
-    margin-top: -27px
+    margin-left: 210px;
+    margin-top: -28px;
 }
 
 #getIngredients-button2{
 
         position: absolute;
-        margin-left: 296px;
-        margin-top: -27px;
+        margin-left: 335px;
+        margin-top: -28px;
+}
+.list-buttons{
+
+    list-style: none;
+    margin-left: 73px;
 }

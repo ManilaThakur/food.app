@@ -1,4 +1,6 @@
+<!---declaration of loginController----->
 <div class="login" ng-controller="loginController">
+  <!---making of login form---->
     <div class="login-form">
         <h3> Login </h3>
       <form name="loginForm">
@@ -18,7 +20,7 @@ Password must be at least 6 characters long
 Password must be at most 15 characters long
 </div>
 <div ng-show="loginForm.password.$error.required">
-Please enter your super secret ninja password
+Please enter your password
 </div>
 </div>
 <button type="submit" class="btn btn-default" ng-disabled="loginForm.$invalid" ng-click="goToHome()">Login</button>
