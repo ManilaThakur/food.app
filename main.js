@@ -46,7 +46,7 @@
 	cost: '1200',
   id: 2,
 	hours: ' 12:30 PM to 1:30 AM',
-	image: 'http://www.hotelcasacarolina.com/wp-content/uploads/2015/06/Elys-Restaurant-in-Santa-Marta-1080x675.jpg'
+	image: 'https://images.pexels.com/photos/280018/pexels-photo-280018.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
 },
 {
 	name: 'Bombay AddA',
@@ -58,7 +58,7 @@
 	cost: '1800',
   id: 3,
 	hours: '12 Noon to 1 AM (Mon-Sun)',
-	image: 'https://media-cdn.tripadvisor.com/media/photo-s/04/ac/54/19/sampan.jpg'
+	image: 'http://i.ndtvimg.com/i/2016-04/pasta-625_625x350_81461826302.jpg'
 },
 {
 	name: 'Fusion Fantasea',
@@ -70,7 +70,7 @@
 	cost: '700',
    id: 4,
 	hours: ' 12 Noon to 4 PM, 6 PM to 11 PM',
-	image: 'https://images.pexels.com/photos/511679/pexels-photo-511679.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+	image: 'https://media-cdn.tripadvisor.com/media/photo-s/04/1e/c5/46/gazebo-spice-twist-restaurant.jpg'
 },
 {
 	name: 'Joeys Pizza',
@@ -82,7 +82,7 @@
 	cost: '2200',
   id: 5,
 	hours: '12 Noon to 1 AM (Mon-Sun)',
-	image: 'https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+	image: 'https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg?w=940&h=650&auto=compress&cs=tinysrgb'
 },
 {
 	name: 'Happy Hakka',
@@ -94,7 +94,7 @@
 	cost: '650',
   id: 6,
 	hours: '12 Noon to 11 PM',
-	image: 'https://images.pexels.com/photos/22420/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb'
+	image: 'http://i.ndtvimg.com/i/2016-04/thai-noodle-soup-625_625x350_51460529187.jpg'
 },
 {
 	name: 'Big Chill',
@@ -143,36 +143,36 @@
   	cuisines: 'Modern Indian',
   	cost: '2200',
     bestDish: {
-            name: 'three bean salad',
-            image: 'https://www.desiblitz.com/wp-content/uploads/2015/12/Dishes-Warm-Rogan-Gosht.jpg'
+            name: 'Diwan-mixed-grill',
+            image: 'http://blog.bebuzzd.com/wp-content/uploads/2017/03/Diwan-mixed-grill.jpg'
           },
     id: 1,
   	hours: '12 Noon to 1 AM (Mon-Sun)',
   	image: 'https://b.zmtcdn.com/data/pictures/chains/2/308022/dabd30bd0b000ea859ada9a08a0132fc.jpg'
   },
   {
-  	name: 'Flying Kukkad',
-  	address: 'Gurgaon',
-  	location: 'Gurgaon',
-  	category: 'Casual Dining',
-  	vote: '4.3',
-  	cuisines: 'North Indian, Continenta, Lebanese',
-  	cost: '2000',
+  	name: 'Oozo',
+  	address: 'Floor 1, Jalaram Commercial Centre, Near Ansa Industrial Estate, Saki Vihar Road, Sakinaka, Mumbai',
+  	location: 'Mumbai',
+  	category: 'Casual Dining, Bar',
+  	vote: '4.6',
+  	cuisines: 'Continental, Mexican, Korean, Japanese, Greek, Finger Food',
+  	cost: '1200',
     id: 2,
-  	hours: '12 AM to 3:30 PM (Mon-Sun)',
-  	image: 'https://images.pexels.com/photos/496970/pexels-photo-496970.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+  	hours: ' 12:30 PM to 1:30 AM',
+  	image: 'https://images.pexels.com/photos/280018/pexels-photo-280018.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
   },
   {
   	name: 'Bombay AddA',
-  	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-  	location: 'Connaught Place',
+  	address: '8th Floor, Nike Showroom Showroom Linking Road, Santacruz West, Mumbai',
+  	location: 'Mumbai',
   	category: 'Casual Dining, Bar',
-  	vote: '4.2',
-  	cuisines: 'Modern Indian',
-  	cost: '2200',
+  	vote: '4.3',
+  	cuisines: 'Healthy Food, Continental, Italian, North Indian',
+  	cost: '1800',
     id: 3,
   	hours: '12 Noon to 1 AM (Mon-Sun)',
-  	image: 'https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+  	image: 'http://i.ndtvimg.com/i/2016-04/pasta-625_625x350_81461826302.jpg'
   },
   {
   	name: 'Fusion Fantasea',
@@ -184,7 +184,7 @@
   	cost: '700',
      id: 4,
   	hours: '12 Noon to 4 PM (Mon-Sun)',
-  	image: 'https://images.pexels.com/photos/511679/pexels-photo-511679.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+  	image: 'https://media-cdn.tripadvisor.com/media/photo-s/04/1e/c5/46/gazebo-spice-twist-restaurant.jpg'
   },
   {
   	name: 'Joeys Pizza',
@@ -193,49 +193,49 @@
   	category: 'Casual Dining, Bar',
   	vote: '3.9',
   	cuisines: 'Modern Indian',
-  	cost: '22',
+  	cost: '2200',
     id: 5,
   	hours: '12 Noon to 1 AM (Mon-Sun)',
-  	image: 'https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
+  	image: 'https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg?w=940&h=650&auto=compress&cs=tinysrgb'
   },
   {
-  	name: 'Happy Hakka',
-  	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-  	location: 'Connaught Place',
-  	category: 'Casual Dining, Bar',
-  	vote: '4.2',
-  	cuisines: 'Modern Indian',
-  	cost: '2200',
+    name: 'Happy Hakka',
+  	address: 'Sector 6, Dwarka',
+  	location: 'Dwarka',
+  	category: 'Casual Dining',
+  	vote: '4.1',
+  	cuisines: 'Chinese, Asian, Thai',
+  	cost: '650',
     bestDish: {
-          	name: 'three bean salad',
+          	name: 'Three-Bean-Salad',
           	image: 'http://noblepig.com/images/2016/06/Avocado-and-Three-Bean-Salad-is-perfect-for-a-summertime-barbecue-side-dish.JPG'
           },
     id: 6,
-  	hours: '12 Noon to 1 AM (Mon-Sun)',
-  	image: 'https://images.pexels.com/photos/22420/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb'
+    hours: '12 Noon to 11 PM',
+    image: 'http://i.ndtvimg.com/i/2016-04/thai-noodle-soup-625_625x350_51460529187.jpg'
   },
   {
-  	name: 'Fort 001',
-  	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-  	location: 'Connaught Place',
+  	name: 'Big Chill',
+  	address: '68-A, Khan Market, New Delhi',
+  	location: 'New Delhi',
   	category: 'Casual Dining, Bar',
-  	vote: '3.9',
+  	vote: '4.5',
   	cuisines: 'Modern Indian',
-  	cost: '2200',
+  	cost: '1500',
     id: 7,
-  	hours: '12 Noon to 1 AM (Mon-Sun)',
+  	hours: ' 12 Noon to 11:30 PM',
   	image: 'https://images.pexels.com/photos/357809/pexels-photo-357809.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
   },
   {
-  	name: 'Burma Burma',
-  	address: '38/39, Level 1, Block E , Inner Circle, Connaught Place',
-  	location: 'Connaught Place',
+  	name: 'Dragons Den',
+  	address: 'New 8/2, Old 5/2, MG Road, Adyar, Chennai',
+  	location: 'Chennai',
   	category: 'Casual Dining, Bar',
   	vote: '4.7',
-  	cuisines: 'Modern Indian',
-  	cost: '2200',
+  	cuisines: 'Chinese, Asian',
+  	cost: '450',
     id: 8,
-  	hours: '12 Noon to 1 AM (Mon-Sun)',
+  	hours: 'Today  11:45 AM to 4 PM, 7 PM to 11 PM',
   	image: 'https://images.pexels.com/photos/464229/food-noodles-soup-pho-464229.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'
   }
   ]
