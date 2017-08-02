@@ -1,5 +1,5 @@
 <!---<h1>Show Restaurant {{restaurantId}} details here</h1>--->
-<div class="restaurant">
+<div class="restaurant" ng-if="restaurant.name" ng-controller="restaurantController">
     <div class="rest-wrapper">
         <div class="image">
             <img src="{{restaurant.image}}" height="100" width="100">
